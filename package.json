@@ -1,0 +1,73 @@
+{
+  "name": "gravity-ui-vite-example",
+  "version": "0.1.0",
+  "type": "module",
+  "keywords": [
+    "react",
+    "vite",
+    "template",
+    "typescript",
+    "gravity",
+    "uikit",
+    "sass"
+  ],
+  "description": "Vite template with: typescript, sass and @gravity-ui packages",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gravity-ui/gravity-ui-vite-example"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "bugs": {
+    "url": "https://github.com/gravity-ui/gravity-ui-vite-example/issues"
+  },
+  "scripts": {
+    "prepare": "husky install",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint:js": "eslint --ext .js,.jsx,.ts,.tsx .",
+    "lint:styles": "stylelint '{styles,src}/**/*.scss'",
+    "lint:prettier": "prettier --check '**/*.md'",
+    "lint": "npm run lint:js && npm run lint:styles && npm run lint:prettier",
+    "test": "exit 0"
+  },
+  "dependencies": {
+    "@gravity-ui/icons": "^2.6.0",
+    "@gravity-ui/uikit": "^5.17.0",
+    "bem-cn-lite": "^4.1.0"
+  },
+  "devDependencies": {
+    "@gravity-ui/browserslist-config": "^4.1.0",
+    "@gravity-ui/eslint-config": "^3.1.1",
+    "@gravity-ui/prettier-config": "^1.1.0",
+    "@gravity-ui/stylelint-config": "^4.0.0",
+    "@gravity-ui/tsconfig": "^1.0.0",
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "@vitejs/plugin-react": "^4.2.0",
+    "esbuild-sass-plugin": "^2.16.0",
+    "eslint": "^8.53.0",
+    "husky": "^8.0.3",
+    "sass": "^1.68.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.0",
+    "vite-plugin-svgr": "^4.2.0"
+  },
+  "browserslist": [
+    "extends @gravity-ui/browserslist-config"
+  ],
+  "lint-staged": {
+    "*.{scss}": [
+      "stylelint --fix --quiet"
+    ],
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --fix --quiet",
+      "prettier --write"
+    ],
+    "*.md": [
+      "prettier --write"
+    ]
+  }
+}
