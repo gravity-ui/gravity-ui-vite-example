@@ -37,4 +37,4 @@ This package includes scripts and configuration used by [Vite](https://vitejs.de
 Please refer to its documentation:
 
 - [Getting Started](https://vitejs.dev/guide/) – How to create a new app.
-- [User Guide](https://vitejs.dev/) – How to develop apps bootstrapped with Create React App.
+- [User Guide](https://vitejs.dev/) – How to develop apps bootstrapped with Vite.
