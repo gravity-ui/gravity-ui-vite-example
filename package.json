@@ -34,8 +34,8 @@
     "test": "exit 0"
   },
   "dependencies": {
-    "@gravity-ui/icons": "^2.6.0",
-    "@gravity-ui/uikit": "^5.17.0",
+    "@gravity-ui/icons": "^2.11.0",
+    "@gravity-ui/uikit": "^6.32.0",
     "bem-cn-lite": "^4.1.0"
   },
   "devDependencies": {
