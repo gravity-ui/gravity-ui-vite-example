@@ -34,10 +34,12 @@
     "test": "exit 0"
   },
   "dependencies": {
-    "@gravity-ui/icons": "^2.11.0",
-    "@gravity-ui/navigation": "^2.27.0",
-    "@gravity-ui/uikit": "^6.32.0",
-    "bem-cn-lite": "^4.1.0"
+    "@gravity-ui/icons": "^2.13.0",
+    "@gravity-ui/navigation": "^3.1.1",
+    "@gravity-ui/uikit": "^7.4.0",
+    "bem-cn-lite": "^4.1.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@gravity-ui/browserslist-config": "^4.1.0",
